@@ -1,0 +1,157 @@
+.heroContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    height: 1082px;
+    width: 100%;
+    position: relative;
+    margin-top: -120px;
+    z-index: 1;
+}
+
+.heroBG {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../../../public/images/img-1.png) no-repeat center center;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+    mask-image: linear-gradient(rgba(17,17,17,.3) 0%,transparent 100%);
+    -webkit-mask-image: linear-gradient(rgba(17,17,17,.3) 0%,transparent 100%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0c0c0cab;
+}
+
+.heroContent {
+    z-index: 3;
+    max-width: 1200px;
+    position: absolute;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heroHeader {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.heroParagraph {
+    margin-top: 24px;
+    color: #fff;
+    font-size: 24px;
+    max-width: 500px;
+}
+
+.heroButtonWrapper {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.heroButton {
+    border-radius: 50px;
+    background-color: #01bf71;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+}
+
+.heroButton.outline {
+    background-color: transparent;
+    border: 1px solid;
+    margin-left: 0px;
+    padding: 14px 25px;
+}
+
+.heroButton:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #01834d;
+}
+
+.heroButton.outline:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #f3f3f3;
+    color: #0c0c0c;
+}
+
+.FaYoutube {
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.FaSteam {
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+
+    .heroContent {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroHeader {
+        font-size: 30px;
+    }
+
+    .heroParagraph {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .heroButtonWrapper {
+        flex-direction: column;
+    }
+
+    .heroButton {
+        padding: 14px 48px;
+        color: #fff;
+        font-size: 20px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}

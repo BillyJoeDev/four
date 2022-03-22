@@ -1,0 +1,114 @@
+.navbarContainer {
+    position: fixed;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 154px 0;
+    padding-inline: 100px;
+    z-index: 4;
+}
+
+.background {
+    margin: 120px 0;
+    background-color: #131516;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.navbarLogo {
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbarMobileIcon {
+    display: none;
+}
+
+.navbarMenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -22px;
+}
+
+.navbarItem {
+    height: 40px;
+}
+
+.navbarLinks {
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1.4rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #01bf71;
+}
+
+.navbarLinks:hover {
+    border-bottom: 3px solid #01bf71;
+}
+
+.navbarButton {
+    display: flex;
+    align-items: center;
+}
+
+.navbarButtonLink {
+    border-radius: 50px;
+    background-color: #01bf71;
+    white-space: nowrap;
+    padding: 0px 27px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.navbarButtonLink:hover {
+    background-color: #028a51;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarContainer {
+        padding-inline: 60px;
+    }
+
+    .navbarMobileIcon {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        margin-right: -22px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.8rem;
+    }
+
+    .navbarMenu, .navbarButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        transition: 0.8s all ease;
+    }
+}
