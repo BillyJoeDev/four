@@ -1,5 +1,5 @@
 .aboutContainer {
-    height: 80rem;
+    height: 85rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,6 @@
 }
 
 .aboutWrapper {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +37,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 800px;
+    width: 1200px;
     height: 250px;
     border: 3px solid #fff;
     box-shadow: 8px 8px 8px #0e0d0c;
@@ -51,9 +50,12 @@
     background-image: url(../../../public/images/looting.png);
 }
 .img-2 {
+    padding-left: 50px;
+    width: 700px;
     background-image: url(../../../public/images/pvp.jpg);
 }
 .img-3 {
+    width: 850px;
     background-image: url(../../../public/images/img-2.png);
 }
 
