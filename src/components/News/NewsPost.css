@@ -129,9 +129,6 @@
 
 .news-post-section-body .gallery {
     display: grid;
-    grid-template-areas: 
-    'one two'
-    'three four';
     gap: 0.8rem;
     margin: 20px;
 }
