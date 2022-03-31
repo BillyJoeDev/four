@@ -13,6 +13,10 @@ footer h1 {
     margin: 50px;
 }
 
+.social-icons {
+    transition: all 0.5s ease-in-out;
+}
+
 .social-icon {
     width: 30px;
     height: 30px;

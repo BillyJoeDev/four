@@ -28,7 +28,7 @@ const Homepage = () => {
   return (
     <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle} />  
+        <Navbar toggle={toggle} navClass='navbarContainer' />  
         <Hero />
         <About />
         <News />

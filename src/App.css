@@ -9,6 +9,10 @@
   line-height: 30px;
 }
 
+html {
+  background-color: #151413;
+}
+
 body {
   background-color: #131516;
 }

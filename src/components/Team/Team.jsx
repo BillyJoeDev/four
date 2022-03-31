@@ -11,7 +11,6 @@ const Team = () => {
     { name: "Travis", role: "Website Developer", color: "#1c1f20", avatar: "images/avatars/billyjoe.jpg", socialLinks: { youtube: "", github: "https://github.com/TravisDevLife", artstation: "" } },
     { name: "Robin", role: "Level Designer & Animator", color: "#1c1f20", avatar: "images/avatars/runkle.webp", socialLinks: { youtube: "https://www.youtube.com/channel/UCbzIQfF8efrF9YMsxuNzpEw", github: "", artstation: "https://www.artstation.com/runkletookle" } },
     { name: "Noah", role: "Technical & Environment Art", color: "#1c1f20", avatar: "images/avatars/noah.webp", socialLinks: { youtube: "", github: "", artstation: "https://www.artstation.com/thearkitect" } },
-    { name: "Liam", role: "3D Artist", color: "#1c1f20", avatar: "images/avatars/liam.webp", socialLinks: { youtube: "", github: "", artstation: "https://www.artstation.com/liamgamedev" } },
     { name: "Derek", role: "Level Designer", color: "#1c1f20", avatar: "images/avatars/derek.webp", socialLinks: { youtube: "", github: "", artstation: "https://www.artstation.com/derekschenck" } },
     { name: "Zuse", role: "Sound Design", color: "#1c1f20", avatar: "images/avatars/zuse.webp", socialLinks: { youtube: "https://www.youtube.com/channel/UC5Bp6lJ8GkiKp_o0IXTBJ3Q", github: "", artstation: "" } },
     { name: "Tay", role: "Music Artist", color: "#1c1f20", avatar: "images/avatars/tay.webp", socialLinks: { youtube: "", github: "", artstation: "" } },

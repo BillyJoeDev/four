@@ -42,13 +42,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 1px 1px 5px #070706;
+    transition: all 0.3s ease-in-out;
 }
 
 .newsImage:hover {
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
 }
 
 .newsText {
@@ -59,22 +59,24 @@
     justify-content: center;
     margin: -150px 150px;
     width: 500px;
-    height: 250px;
-    background-color: rgba(22, 24, 25, 0.95);
-    box-shadow: 1px 1px 5px #070706;
-    border-radius: 20px;
+    height: 220px;
+    background-color: rgba(19, 21, 22, .95);
+    box-shadow: 1px 1px 5px #0f0f0f;
     z-index: 2;
 }
 
 .newsText h1 {
     color: rgb(1, 191, 113, 0.8);
     margin-top: 10px;
+    font-size: clamp(15px, 26px, 26px);
+    text-align: center;
+    width: 90%;
 }
 
 .newsText p {
     color: #fff;
     font-size: 12px;
-    padding: 30px;
+    padding: 10px 10px 30px 10px;
     line-height: 20px;
     text-align: center;
 }
