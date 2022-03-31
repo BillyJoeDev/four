@@ -26,7 +26,7 @@ const NewsPost = () => {
         <div className="news-post-wrapper" id='news'>
             <Navbar navClass='newsNavbar' />
             <div className="news-post-header-wrapper">
-                <div className="news-post-header-image"></div>
+                <img src={news.headerimg} className="news-post-header-image" />
                 <div className="news-post-header">
                     <h1>{news.title}</h1>
                     <p>{news.summary}</p>
