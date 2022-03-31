@@ -32,7 +32,7 @@ const Navbar = ({toggle, navClass}) => {
                     <NavLink className='navbarLinks' exact to='/' activeclass='active'>Home</NavLink>
                 </div>
                 <div className='navbarItem'>
-                    <NavLink className='navbarLinks' to='news' activeclass='active'>News</NavLink>
+                    <NavLink className='navbarLinks' to='/news' activeclass='active'>News</NavLink>
                 </div>
                 <div className='navbarButton'>
                     <div className='navbarButtonLink'>Buy Four</div>
