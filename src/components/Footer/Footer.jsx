@@ -2,9 +2,9 @@ import React from 'react'
 import { FaDiscord, FaYoutube, FaTwitter } from 'react-icons/fa'
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({className}) => {
   return (
-    <footer>
+    <footer className={className}>
         <h1>© 2022 Real Pixel Studios. All rights reserved.</h1>
         <div className='social-icons'>
             <a href='https://discord.gg/kjSmMK7PzA' target='_blank'><FaDiscord className='social-icon discord' /></a>

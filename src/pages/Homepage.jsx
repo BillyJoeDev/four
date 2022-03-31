@@ -33,7 +33,7 @@ const Homepage = () => {
         <About />
         <News />
         <Team />
-        <Footer />
+        <Footer className='default' />
     </>
   )
 }

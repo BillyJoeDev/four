@@ -55,7 +55,7 @@ const NewsPost = () => {
                     );
                 })
             }
-            <Footer />
+            <Footer className='news' />
         </div>
     )
 }
