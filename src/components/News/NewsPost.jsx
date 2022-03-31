@@ -39,7 +39,7 @@ const NewsPost = () => {
                     return(
                         <div className="news-post-section-wrapper">
                             <div className="news-post-section-image-wrapper">
-                                <div className="news-post-section-image" />
+                                <img src={section.image} className="news-post-section-image" />
                                 <div className="news-post-section-overlay" />
                             </div>
                             <div className="news-post-section-content">
