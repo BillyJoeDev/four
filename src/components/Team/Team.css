@@ -53,6 +53,7 @@
     font-weight: normal;
     letter-spacing: 0.4px;
     box-shadow: 1px 1px 5px rgb(10, 10, 10);
+    white-space: nowrap;
 }
 
 .member-social-icons {
@@ -87,14 +88,31 @@
     color: rgb(17, 150, 202);
 }
 
+@media screen and (max-width: 1024px) 
+{
+    .teamContainer {
+        height: 82rem;
+    }
+
+    .our-team-grid {
+        grid-template-areas: 
+        'one two three'
+        'four five six';
+    }  
+}
+
 @media screen and (max-width: 425px) 
 {
+    .teamContainer {
+        height: 183rem;
+    }
+
     .our-team-grid {
         display: grid;
         grid-template-areas: 
-        'one two'
-        'three four';
+        'one'
+        'two';
         gap: 50px;
-        padding: 50px;
+        padding: 20px 0;
     }    
 }

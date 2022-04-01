@@ -17,10 +17,8 @@
 }
 
 .aboutWrapper {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
 .aboutField {
@@ -86,8 +84,8 @@
 {
     .aboutContainer {
         height: 100rem;
-        margin: 0;
-        max-width: 90%;
+        margin: 10px;
+        max-width: 100%;
     }
     
     .aboutContainer h1 {
@@ -102,11 +100,32 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 15px;
+        margin: 0;
     }
     
     .aboutImage {
-        border: 3px solid #fff;
-        width: 100%;
+        display: none;
+    }
+
+    .aboutTextSection {
+        align-items: center;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .aboutContainer {
+        height: 127rem;
+    }
+
+    .aboutField {
+        height: 39rem;
+        flex-direction: column;
+    }
+    
+    .aboutImage {
+        width: 550px;
+        margin: 50px 0;
     }
 }

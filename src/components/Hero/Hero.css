@@ -123,8 +123,10 @@
     }
 
     .heroContent {
+        display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 200px;
         text-align: center;
     }
 
@@ -134,11 +136,6 @@
 
     .heroParagraph {
         font-size: 16px;
-        width: 300px;
-    }
-
-    .heroButtonWrapper {
-        flex-direction: column;
     }
 
     .heroButton {
@@ -153,5 +150,17 @@
         justify-content: center;
         margin-top: 10px;
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) 
+{
+    .heroButtonWrapper {
+        flex-direction: column;
+    }
+
+    .heroParagraph {
+        font-size: 14px;
+        width: 300px;
     }
 }
