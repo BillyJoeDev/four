@@ -13,7 +13,7 @@ const NewsPost = () => {
     const getPost = async () => 
     {
       setLoading(true);
-      await fetch(`https://realpixelstudios.herokuapp.com/posts`).then(res => res.json()).then((result) => setNews(result.find(e => e.id == id)));
+      await fetch("https://realpixelstudios.herokuapp.com/posts/visible").then(res => res.json()).then((result) => setNews(result.find(e => e.id == id)));
       setLoading(false);
     };
   

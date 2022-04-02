@@ -108,6 +108,7 @@
     }
 
     .aboutTextSection {
+        text-align: center;
         align-items: center;
         padding-left: 0;
     }

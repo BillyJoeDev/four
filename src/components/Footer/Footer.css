@@ -21,6 +21,8 @@ footer h1 {
 }
 
 .social-icons {
+    display: flex;
+    margin-right: 20px;
     transition: all 0.5s ease-in-out;
 }
 

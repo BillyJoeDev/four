@@ -9,7 +9,7 @@ const News = () => {
   const getPosts = async () => 
   {
     setLoading(true);
-    await fetch("https://realpixelstudios.herokuapp.com/posts").then(res => res.json()).then((result) => setNews(result.reverse().find(e => e.visible)));
+    await fetch("https://realpixelstudios.herokuapp.com/posts/visible").then(res => res.json()).then((result) => setNews(result.reverse()[0]));
     setLoading(false);
   };
 
@@ -19,7 +19,7 @@ const News = () => {
 
   return (
     <div className='newsContainer'>
-        <h1>LATEST NEWS ON FOUR</h1> 
+        <h1 className='newsContainer-header'>LATEST NEWS ON FOUR</h1> 
         <div className='newsPosts'>
           { 
             loading || news == null ? null :
