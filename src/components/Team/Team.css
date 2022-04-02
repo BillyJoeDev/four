@@ -127,7 +127,7 @@
     }  
 }
 
-@media screen and (max-width: 425px) 
+@media screen and (max-width: 520px) 
 {
     .teamContainer {
         height: 183rem;
