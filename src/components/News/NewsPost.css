@@ -148,7 +148,7 @@
 }
 
 .news-post-section-body img:hover {
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 .one {
@@ -191,6 +191,7 @@
 }
 
 .feature-container img {
+    height: 100%;
     width: 90%;
 }
 
@@ -206,5 +207,9 @@
 {
     .news-post-header h1 {
         font-size: 2rem;
-    }    
+    }
+
+    .caption-gallery {
+        grid-template-areas: 'one';
+    }
 }
