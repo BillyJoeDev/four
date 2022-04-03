@@ -28,9 +28,9 @@ const Team = () => {
                 <img src={member.avatar} className='team-member-avatar'></img>
                 <h2 className='team-member-name'>{member.name}</h2>
                 <div className='member-social-icons'>
-                  { member.socialLinks.youtube != "" ? <a href={member.socialLinks.youtube} target="_blank"><FaYoutube className='social-icon youtube' /></a> : null }
-                  { member.socialLinks.github != "" ? <a href={member.socialLinks.github} target="_blank"><FaGithub className='social-icon github' /></a> : null }
-                  { member.socialLinks.artstation != "" ? <a href={member.socialLinks.artstation} target="_blank"><FaArtstation className='social-icon artstation' /></a> : null }
+                  { member.socialLinks.youtube != "" ? <a href={member.socialLinks.youtube} target="_blank" rel="noreferrer"><FaYoutube className='social-icon youtube' /></a> : null }
+                  { member.socialLinks.github != "" ? <a href={member.socialLinks.github} target="_blank" rel="noreferrer"><FaGithub className='social-icon github' /></a> : null }
+                  { member.socialLinks.artstation != "" ? <a href={member.socialLinks.artstation} target="_blank" rel="noreferrer"><FaArtstation className='social-icon artstation' /></a> : null }
                 </div>
                 <h3 className='team-member-role' style={ {backgroundColor: member.color}}>{member.role}</h3>
               </div>

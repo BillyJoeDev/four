@@ -31,6 +31,7 @@
 
 .sidebarCloseIcon {
     color: #fff;
+    margin: 10px;
 }
 
 .sidebarWrapper {
@@ -38,7 +39,9 @@
 }
 
 .sidebarMenu {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidebarLink {
@@ -48,10 +51,14 @@
     font-size: 2rem;
     text-decoration: none;
     list-style: none;
+    width: 65px;
+    height: 40px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
     color: #fff;
-    margin: 15px;
+    margin: 20px 0;
+    letter-spacing: 1.3px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .sidebarLink:hover{
@@ -62,4 +69,22 @@
 .sidebarButtonWrap {
     display: flex;
     justify-content: center;
+}
+
+.sidebarButton {
+    cursor: pointer;
+    width: 100px;
+    padding: 6px;
+    text-align: center;
+    background-color: #01bf71;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 1.3px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebarButton:hover {
+    background-color: #028a51;
 }

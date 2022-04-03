@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import {FaTimes} from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
@@ -12,12 +13,11 @@ const Sidebar = ({isOpen, toggle}) => {
         </div>
         <div className='sidebarWrapper'>
             <div className='sidebarMenu'>
-                <div className='sidebarLink' onClick={toggle}>About</div>
-                <div className='sidebarLink' onClick={toggle}>News</div>
-                <div className='sidebarLink' onClick={toggle}>Our Team</div>
+                <NavLink className='sidebarLink' exact to='/' activeclass='active' onClick={toggle}>HOME</NavLink>
+                <NavLink className='sidebarLink' to='/news' activeclass='active' onClick={toggle}>NEWS</NavLink>
             </div>
             <div className='sidebarButtonWrap'>
-                <div className='sidebarButton' onClick={toggle}>Buy Four</div>
+                <div className='sidebarButton' onClick={toggle}>BUY FOUR</div>
             </div>
         </div>
     </div>

@@ -80,10 +80,28 @@
     padding-inline: 20px;
 }
 
+@media screen and (max-width: 768px) 
+{
+    .aboutContainer {
+        height: 127rem;
+    }
+
+    .aboutField {
+        height: 39rem;
+        flex-direction: column;
+    }
+    
+    .aboutImage {
+        max-width: 80%;
+        width: 550px;
+        margin: 50px 0;
+    }
+}
+
 @media screen and (max-width: 425px) 
 {
     .aboutContainer {
-        height: 100rem;
+        height: 90rem;
         margin: 10px;
         max-width: 100%;
     }
@@ -92,10 +110,11 @@
         font-size: 2.8rem;
         line-height: 40px;
         text-align: center;
+        margin-bottom: 6rem;
     }
     
     .aboutField {
-        height: 20rem;
+        height: 25rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -114,19 +133,13 @@
     }
 }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 320px) 
 {
     .aboutContainer {
-        height: 127rem;
+        height: 105rem;
     }
 
     .aboutField {
-        height: 39rem;
-        flex-direction: column;
-    }
-    
-    .aboutImage {
-        width: 550px;
-        margin: 50px 0;
+        height: 30rem;
     }
 }
