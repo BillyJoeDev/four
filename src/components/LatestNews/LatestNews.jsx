@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import './News.css'
+import './LatestNews.css'
 
 const News = () => {
   const [loading, setLoading] = useState(true);

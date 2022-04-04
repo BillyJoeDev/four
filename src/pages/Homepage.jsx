@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About'
 import Team from '../components/Team/Team';
-import News from '../components/News/News';
+import LatestNews from '../components/LatestNews/LatestNews';
 import Footer from '../components/Footer/Footer';
 
 const Homepage = () => {
@@ -31,7 +31,7 @@ const Homepage = () => {
         <Navbar toggle={toggle} navClass='navbarContainer' />  
         <Hero />
         <About />
-        <News />
+        <LatestNews />
         <Team />
         <Footer className='default' />
     </>

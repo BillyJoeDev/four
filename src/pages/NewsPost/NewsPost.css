@@ -9,8 +9,8 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
-    padding-inline: 50px;
+    margin: 10px 0;
+    padding-inline: 100px;
     z-index: 4;
 }
 
@@ -211,5 +211,11 @@
 
     .caption-gallery {
         grid-template-areas: 'one';
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .newsNavbar {
+        padding-inline: 50px;
     }
 }

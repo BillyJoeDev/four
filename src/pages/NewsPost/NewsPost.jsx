@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Parse from 'html-react-parser'
 import './NewsPost.css'
-import Footer from '../Footer/Footer'
+import Footer from '../../components/Footer/Footer'
 
 const NewsPost = () => {
     const { id } = useParams();
